@@ -1,0 +1,124 @@
+ 
+body{
+  background: #0F2027; 
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  font-family: "Pacifico", cursive;
+}
+  h1 , h5{
+    margin-top:50px;
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    font-family: bebas neue;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(45deg, aqua, blue, Magenta, red, orange, yellow, green, cyan, blue, violet, cyan, skyblue);
+    background-size: 400% 400%;
+    animation: animate 15s ease infinite;
+  }
+ h5{
+  margin-top: 100px;
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+ }
+  @keyframes animate {
+    0% {
+      background-position: 0 0;
+    }
+    25% {
+      background-position: 100% 0;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    75% {
+      background-position: 0 100%;
+    }
+    100% {
+      background-position: 0 0;
+    }
+   }  
+  /* img{
+    mix-blend-mode:color-burn;
+  } */
+ .card img{
+    border-radius: 20px !important;
+  }
+.card:hover{
+  color: black;
+  cursor: pointer;
+  box-shadow: rgba(147, 147, 192, 0.699) 0px 8px 24px, rgba(88, 88, 117, 0.911) 0px 16px 56px, rgba(168, 168, 206, 0.911) 0px 24px 80px !important;
+  background-color: rgb(121, 183, 212);
+}
+.card{
+  color: aliceblue;
+  background-color: #2C5364;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-radius: 20px !important;
+}
+
+  
+/* .card-body{
+  position: relative;
+	height: 200px;
+	background: linear-gradient(45deg, #fe7275, #a73ab1);
+	box-sizing: border-box;
+	padding: 30px;
+  box-shadow: rgba(214, 197, 197, 0.3) 0px 19px 38px, rgba(184, 172, 172, 0.22) 0px 15px 12px;
+	transition: .5s;
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	border-radius: 10px;
+	transition: all 0.6s ease;
+} */
+/* 
+.card-body p {
+	color: #fff;
+	font-size: 16px;
+}
+.card-body h3 {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.card-body:before, .card-body:after {
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 0%;
+	border: 5px solid #fff;
+	opacity: 0;
+	transition: .5s;
+	box-sizing: border-box;
+}
+.card-body:before {
+	top: 0;
+	left: 0;
+	border-top-left-radius: 10px;
+}
+.card-body:after {
+	bottom: 0;
+	right: 0;
+	border-bottom-right-radius: 10px;
+}
+.card-body:hover:before, .card-body:hover:after {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	transition-delay: .3s;
+}
+.card-body:hover {
+	box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+}
+.card-body:hover {
+	background-image: linear-gradient(45deg, #b343cb, #180293);
+	box-shadow: 0 2px 15px 5px rgba(0, 0, 0, 0.5);
+}
+.card:hover {
+  
+   cursor: pointer;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+} */ 
